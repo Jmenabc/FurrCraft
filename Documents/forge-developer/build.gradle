@@ -64,7 +64,7 @@ minecraft {
             property 'forge.enabledGameTestNamespaces', 'furrCraft'
 
             mods {
-                furrCraft {
+                furrcraft{
                     source sourceSets.main
                 }
             }
@@ -81,7 +81,7 @@ minecraft {
             property 'forge.enabledGameTestNamespaces', 'furrCraft'
 
             mods {
-                furrCraft {
+                furrcraft{
                     source sourceSets.main
                 }
             }
@@ -109,7 +109,7 @@ minecraft {
             property 'forge.enabledGameTestNamespaces', 'furrCraft'
 
             mods {
-                furrCraft {
+                furrcraft{
                     source sourceSets.main
                 }
             }
@@ -126,7 +126,7 @@ minecraft {
             args '--mod', 'furrCraft', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                furrCraft {
+                furrcraft{
                     source sourceSets.main
                 }
             }
@@ -170,7 +170,7 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "furrCraft",
+                "Specification-Title"     : "furrcraft",
                 "Specification-Vendor"    : "furrCraftsareus",
                 "Specification-Version"   : "1", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
