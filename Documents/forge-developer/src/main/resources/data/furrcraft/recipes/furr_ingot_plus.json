@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "O#D",
+    "O#D",
+    "O#D"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:emerald"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result" : {
+    "item": "furrcraft:furr_ingot_plus"
+  }
+}

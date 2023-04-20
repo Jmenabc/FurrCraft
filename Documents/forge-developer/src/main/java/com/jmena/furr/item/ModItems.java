@@ -13,9 +13,12 @@ import net.minecraftforge.registries.RegistryObject;
     @author Jmenabc
  */
 public class ModItems {
-    //FURRO LINGOTE
+
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "furrcraft");
+    //FURRO LINGOTE
     public static final RegistryObject<Item> furr_ingot = ITEMS.register("furr_ingot",()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    //FURRO LINGOTE PLUS
+    public static final RegistryObject<Item> furr_ingot_plus = ITEMS.register("furr_ingot_plus",()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     //ESPADA FURRO
     public static final RegistryObject<Item> furr_word = ITEMS.register("furr_sword",
             ()-> new SwordItem(ModTiers.FURR,2,3f,new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
