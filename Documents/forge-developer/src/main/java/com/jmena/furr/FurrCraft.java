@@ -41,7 +41,9 @@ public class furrcraft
         MinecraftForge.EVENT_BUS.register(this);
         //Call the method for register the items
         ModItems.register(modeventBus);
+        //Call the method for register the recypes
         ModRecipes.register(modeventBus);
+
     }
 
     private void setup(final FMLCommonSetupEvent event)
