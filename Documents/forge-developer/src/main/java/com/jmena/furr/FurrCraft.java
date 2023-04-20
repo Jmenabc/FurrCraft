@@ -1,6 +1,7 @@
 package com.jmena.furr;
 
 import com.jmena.furr.item.ModItems;
+import com.jmena.furr.recipe.ModRecipes;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -40,6 +41,7 @@ public class furrcraft
         MinecraftForge.EVENT_BUS.register(this);
         //Call the method for register the items
         ModItems.register(modeventBus);
+        ModRecipes.register(modeventBus);
     }
 
     private void setup(final FMLCommonSetupEvent event)

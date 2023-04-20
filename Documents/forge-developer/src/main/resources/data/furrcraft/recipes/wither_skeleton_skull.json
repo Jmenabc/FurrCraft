@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "pattern": [
+      "###",
+      "  ",
+      "  "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:emerald"
+      }
+    },
+    "item": "minecraft:wither_skeleton_skull",
+    "count": 1
+  }
+}

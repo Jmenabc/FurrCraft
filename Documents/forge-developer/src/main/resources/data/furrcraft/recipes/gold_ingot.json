@@ -1,19 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
+    "   ",
     " # ",
-    " # ",
-    " @ "
+    "   "
   ],
   "key": {
     "#": {
       "item": "furrcraft:furr_ingot"
-    },
-    "@": {
-      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "furrcraft:furr_sword"
+    "item": "minecraft:gold_ingot",
+    "count": 1
   }
 }
